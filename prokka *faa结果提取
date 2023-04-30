@@ -1,4 +1,4 @@
-for file in /home/xianghuikong/gongshengjun_prokka_result2/*
+for file in /home/xianghuikong/gongshengjun_prokka_result2/* #遍历文件夹
 do
   	cd ${file}
         cp *.faa ../
